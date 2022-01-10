@@ -1,4 +1,4 @@
-package Java10;
+package java10;
 
 public class VarKeyword {
 

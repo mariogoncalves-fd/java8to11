@@ -4,6 +4,7 @@
 - A new version of Java to be released every 6 months - March and September.
 - With Java 11, Oracle JDK will be released under a commercial license and developers can use OracleJDK for free for development but not for production
     - adoptOpenJDK11
+- [Java SDK Release Notes](https://www.oracle.com/java/technologies/javase/11u-relnotes.html)
 
 ## Migration
 - Easy
@@ -52,8 +53,8 @@ Some deprecations and removals (check official documentation)
 - [ProcessAPI](src/main/java/java9/ProcessAPI.java)
 
 ### Java 10
-- [var](src/main/java/Java10/VarKeyword.java)
-- [Collectors API](src/main/java/Java10/CollectorsAPI.java)
+- [var](src/main/java/java10/VarKeyword.java)
+- [Collectors API](src/main/java/java10/CollectorsAPI.java)
 - [Immutable Collection](src/main/java/java10/ImmutableCollection.java)
 - [Optionals](src/main/java/java10/Optionals.java)
 

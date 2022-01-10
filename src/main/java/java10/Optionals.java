@@ -1,4 +1,4 @@
-package Java10;
+package java10;
 
 import java.util.Optional;
 
