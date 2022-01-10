@@ -6,6 +6,7 @@ public class TryWithResources {
 
          // Resources could not be created other than inside the try block.
         MyThread th = new MyThread();
+
         try (th) { //Resource references are not supported at language level '8'
             th.executeSomething();
         } catch (Exception ex) {}

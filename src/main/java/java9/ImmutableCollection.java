@@ -21,8 +21,8 @@ public class ImmutableCollection {
 
         //Java 9
         final List<String> list = List.of("A", "B", "C", "D");
-        //final boolean e = list.add("E");
         //throws UnsupportedOperationException
+        final boolean e = list.add("E");
 
         final Set<Integer> set = Set.of(1, 2, 3, 4);
         final Map<String, Integer> map = Map.of("a", 1, "b", 2, "c", 3);
